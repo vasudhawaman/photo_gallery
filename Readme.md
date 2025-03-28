@@ -23,6 +23,14 @@ Gallery Face Scan is an application designed to automatically classify and group
 
 ## Future Enhancements
 - Integration with cloud storage for large-scale galleries.
+
+## Images
+![image](https://github.com/user-attachments/assets/c52f067d-490b-4d01-b433-1ec50a9cc06f)
+![image](https://github.com/user-attachments/assets/13a36447-5014-4d18-943a-36a4955c48c5)
+![image](https://github.com/user-attachments/assets/a269d702-9070-48c4-81b0-80cad9f946a2)
+
+
+
 - Improved clustering accuracy using deep learning-based models.
 - Real-time face recognition for video processing.
 
