@@ -31,5 +31,5 @@ Gallery Face Scan is an application designed to automatically classify and group
 ![image](https://github.com/user-attachments/assets/13a36447-5014-4d18-943a-36a4955c48c5)
 ![image](https://github.com/user-attachments/assets/a269d702-9070-48c4-81b0-80cad9f946a2)
 ---
-Developed by Vasudha Wiman.
+Developed by TechTonic.
 
