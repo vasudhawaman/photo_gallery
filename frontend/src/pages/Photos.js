@@ -9,7 +9,7 @@ export default function Photos() {
     const cardData = [
         {
             title: "Gallery 1",
-            pictures: [photo1, photo2],
+            pictures: [photo1, photo2, photo3],
         },
         {
             title: "Gallery 2",

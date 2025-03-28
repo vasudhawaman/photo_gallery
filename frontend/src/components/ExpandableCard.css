@@ -1,7 +1,8 @@
 .expandable-card {
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin: 10px;
+  margin-left: 400px; /* Center the card with margin on both sides */
+  max-width: 600px; /* Optional: Limit the card width */
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
@@ -23,22 +24,23 @@
   transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
   max-height: 0;
   opacity: 0;
+  margin-top: 15px; /* Added margin to increase spacing */
 }
 
 .card-content.content-visible {
-  max-height: 1000px; /* Large enough to fit content */
+  max-height: 5000px; /* Increased height to fit more content */
   opacity: 1;
 }
 
 .picture-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* Fixed 2 columns */
   gap: 10px;
 }
 
 .grid-item {
-  width: 100%;
-  height: auto;
+  width: 280px; /* Fixed width */
+  height: 200px; /* Increased height */
   border-radius: 4px;
   object-fit: cover;
 }

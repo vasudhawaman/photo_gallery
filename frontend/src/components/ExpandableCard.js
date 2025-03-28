@@ -26,7 +26,6 @@ const ExpandableCard = ({ title, pictures }) => {
             </div>
             <div
                 className={`card-content ${isExpanded ? 'content-visible' : 'content-hidden'}`}
-                style={{ maxHeight: `${contentHeight}px`, opacity: isExpanded ? 1 : 0 }}
                 ref={contentRef}
             >
                 <div className="picture-grid">
